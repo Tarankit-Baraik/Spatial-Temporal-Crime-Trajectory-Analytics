@@ -3,9 +3,14 @@
 
 ## What this project does 🔎
 
-Analyzes Chicago crime (2021-2025) alongside NOAA weather data (O'Hare station) at the community-area x date level, to answer three questions: how crime varies across space and time, how it associates with weather, and whether that history can classify unusually high-crime days (`high_crime_day`, defined as a community area's daily crime count exceeding its own 75th-percentile historical baseline).
+Analyzes Chicago crime (2021-2025) alongside NOAA weather data (O'Hare station) at the community-area x date level, to answer three questions: 
+- how crime varies across space and time ?
+- how it associates with weather ?
+- can history classify unusually high-crime days ?
 
-**Key results** 📌
+(`high_crime_day`, defined as a community area's daily crime count exceeding its own 75th-percentile historical baseline).
+
+### **Key results** 📌
 
 - Weather associates with crime (Spearman r = 0.552 citywide, strongest for extreme cold and extreme heat) — an association, not a causal claim.
 - Weather improves prediction, and it is weather doing the work, not calendar features: weather alone reaches ROC-AUC 0.562, statistically indistinguishable from the full feature set's 0.563, while calendar alone trails at 0.548.
