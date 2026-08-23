@@ -1,0 +1,4 @@
+model,n_features,f1_mean,f1_std,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std
+Model A (calendar + historical crime),19,0.329,0.143,0.548,0.02,0.261,0.087
+Model B (A + weather),30,0.316,0.155,0.563,0.014,0.27,0.086
+Model C (B + weather interactions),36,0.321,0.148,0.563,0.014,0.269,0.084

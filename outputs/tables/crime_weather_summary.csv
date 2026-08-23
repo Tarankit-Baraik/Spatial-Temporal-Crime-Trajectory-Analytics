@@ -1,0 +1,2 @@
+shape_rows,shape_cols,date_min,date_max,n_unique_dates,n_community_areas,match_rate_pct,overall_temp_crime_spearman_r
+140602,35,2021-01-01,2025-12-31,1826,77,100.0,0.552

@@ -1,0 +1,7 @@
+comparison,metric,n_folds,mean_diff,folds_favoring_b,wilcoxon_statistic,p_value
+Arm 3 (crime + temporal + spatial + weather) vs Arm 1 (crime + temporal + spatial),f1,5,-0.0127,2,3.0,0.3125
+Arm 3 (crime + temporal + spatial + weather) vs Arm 1 (crime + temporal + spatial),roc_auc,5,0.0156,5,0.0,0.0625
+Arm 3 (crime + temporal + spatial + weather) vs Arm 2 (crime + weather),f1,5,0.0031,3,6.0,0.8125
+Arm 3 (crime + temporal + spatial + weather) vs Arm 2 (crime + weather),roc_auc,5,0.0019,3,4.0,0.4375
+Arm 2 (crime + weather) vs Arm 1 (crime + temporal + spatial),f1,5,-0.0158,2,6.0,0.8125
+Arm 2 (crime + weather) vs Arm 1 (crime + temporal + spatial),roc_auc,5,0.0137,5,0.0,0.0625

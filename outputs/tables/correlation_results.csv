@@ -1,0 +1,6 @@
+weather_var,crime_var,pearson_r,pearson_p,spearman_r,spearman_p,primary_method
+avg_temp,crime_count,0.569,1.939875499986748e-157,0.552,5.2973011046155345e-146,spearman
+temp_range,crime_count,0.191,1.6989599169062382e-16,0.228,6.343489022386428e-23,spearman
+PRCP,crime_count,-0.043,0.06452989726439372,-0.112,1.445959451699894e-06,spearman
+SNOW,crime_count,-0.25,1.8337461671917726e-27,-0.27,8.239950070241516e-32,spearman
+AWND,crime_count,-0.183,3.613216775520947e-15,-0.169,4.047222263329835e-13,spearman

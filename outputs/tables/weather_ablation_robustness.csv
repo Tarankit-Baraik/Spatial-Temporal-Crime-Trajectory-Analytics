@@ -1,0 +1,4 @@
+arm,n_features,f1_mean,f1_std,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std
+Arm 1 (crime + temporal + spatial),19,0.329,0.143,0.548,0.02,0.261,0.087
+Arm 2 (crime + weather),21,0.313,0.1,0.562,0.015,0.27,0.087
+Arm 3 (crime + temporal + spatial + weather),30,0.316,0.155,0.563,0.014,0.27,0.086

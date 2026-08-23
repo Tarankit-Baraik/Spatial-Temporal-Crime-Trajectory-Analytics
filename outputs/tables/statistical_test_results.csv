@@ -1,0 +1,14 @@
+test,h0,statistic,p_value,effect_size,effect_type,group,p_value_fdr_adj,significant_after_fdr
+Spearman correlation,no monotonic association between avg_temp and crime_count,0.552,5.2973011046155345e-146,0.552,spearman_r,avg_temp,6.886491436000194e-145,True
+Spearman correlation,no monotonic association between temp_range and crime_count,0.228,6.343489022386428e-23,0.228,spearman_r,temp_range,1.3744226215170592e-22,True
+Spearman correlation,no monotonic association between PRCP and crime_count,-0.112,1.445959451699894e-06,-0.112,spearman_r,PRCP,2.088608096899847e-06,True
+Spearman correlation,no monotonic association between SNOW and crime_count,-0.27,8.239950070241516e-32,-0.27,spearman_r,SNOW,2.6779837728284926e-31,True
+Spearman correlation,no monotonic association between AWND and crime_count,-0.169,4.047222263329835e-13,-0.169,spearman_r,AWND,6.576736177910982e-13,True
+Mann-Whitney U,no difference in crime_count between is_rain=True vs False,319870.0,1.8111822816260913e-06,-0.137,rank_biserial,is_rain,2.3545369661139184e-06,True
+Mann-Whitney U,no difference in crime_count between is_snow=True vs False,43184.5,1.676124458952198e-30,-0.605,rank_biserial,is_snow,4.357923593275715e-30,True
+Mann-Whitney U,no difference in crime_count between is_heavy_rain=True vs False,23431.5,0.35146695475590395,-0.101,rank_biserial,is_heavy_rain,0.38075586765222924,False
+Mann-Whitney U,no difference in crime_count between is_heavy_snow=True vs False,511.0,5.540720126814826e-06,-0.93,rank_biserial,is_heavy_snow,6.5481237862357036e-06,True
+Mann-Whitney U,no difference in crime_count between is_extreme_heat=True vs False,132859.0,1.8526579297770669e-13,0.42,rank_biserial,is_extreme_heat,3.440650441014553e-13,True
+Mann-Whitney U,no difference in crime_count between is_extreme_cold=True vs False,48361.5,1.1308169409504911e-53,-0.686,rank_biserial,is_extreme_cold,4.900206744118794e-53,True
+Kruskal-Wallis,crime_count distribution is the same across seasons,415.51322050534054,9.654383049040032e-90,0.223,eta_squared,season,6.27534898187602e-89,True
+Chi-square independence,crime-category composition is independent of rain/dry,2.3997115366302326,0.49368832233640003,0.001,cramers_v,category_x_rain,0.49368832233640003,False
